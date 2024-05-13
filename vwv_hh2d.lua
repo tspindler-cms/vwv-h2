@@ -257,8 +257,9 @@ vwv_hh2d =  {
 			  FiX = 0, FiY = 0, FiZ = 5},
 			{
 				{ CLSID = "{DFT-150gal}", attach_point_position = {-0.3, 0.08, 0}, connector = "Pylon_1" },
-				{ CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.3, 0.08, 0}, connector = "Pylon_1" },
-				{ CLSID = "SPITFIRE_45GAL_TORPEDO_TANK", attach_point_position = {-0.3, 0.08, 0}, connector = "Pylon_1" },
+				-- { CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.3, 0.08, 0}, connector = "Pylon_1" },
+				{ CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.455, -0.197, 0.200}, connector = "Pylon_1" },
+				{ CLSID = "SPITFIRE_45GAL_TORPEDO_TANK", attach_point_position = {-0.555, -0.197, 0.200}, connector = "Pylon_1" },
 			}
 		),
 		pylon(2, 0, -2.605000, -0.3800, 1.5800,{use_full_connector_position = false, connector = "Pylon_2"},
@@ -272,9 +273,10 @@ vwv_hh2d =  {
 		pylon(4, 0, -4.005000, 0.0000, 0.0000,{use_full_connector_position = false, connector = "Pylon_4",
 			  FiX = 0, FiY = 0, FiZ = 5},
 			{
-				{ CLSID = "{DFT-150gal}", attach_point_position = {-0.3, 0.08, 0}, connector = "Pylon_4" },
-				{ CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.3, -0.12, 0}, connector = "Pylon_4" },
-				{ CLSID = "SPITFIRE_45GAL_TORPEDO_TANK", attach_point_position = {-0.3, -0.12, 0}, connector = "Pylon_4" },
+				{ CLSID = "{DFT-150gal}", attach_point_position = {-0.3, 0.10, 0}, connector = "Pylon_4" },
+				-- { CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.3, 0.12, 0}, connector = "Pylon_4" },
+				{ CLSID = "{US_108GAL_PAPER_FUEL_TANK}", attach_point_position = {-0.460, -0.194, -0.200}, connector = "Pylon_4" },
+				{ CLSID = "SPITFIRE_45GAL_TORPEDO_TANK", attach_point_position = {-0.560, -0.194, -0.200}, connector = "Pylon_4" },
 			}
 		),
 		pylon(5, 0, -4.005000, 0.0000, 0.0000,{use_full_connector_position = false, connector = "Pylon_5"},
