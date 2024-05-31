@@ -21,6 +21,9 @@ vwv_sh2f =  {
 			fire  	 = { 300, 2}; -- Fire on the ground after destroyed: 300sec 2m
 			username = 'sh_2c_f';
 			index    =  WSTYPE_PLACEHOLDER;
+            classname 	= "lLandPlane";
+			positioning = "BYNORMAL";
+			drawonmap = true;
 		},
 		{
 			name  = "kaman_h2_desrt";
@@ -54,10 +57,10 @@ vwv_sh2f =  {
 		tail_pos 		= 	{-10.042, 1.76, 0},
 		tail_fin_area		=	4.75,
 		tail_stab_area		=	2.94,
-		M_empty			=	3193,
-		M_nominal		=	4396,
-		M_max			=	5670,
-		MOI 			= 	{7406,	50000, 53516},
+		M_empty	= 8030,
+		M_nominal =	9800,
+		M_max =	11900,
+		MOI = {12000, 35000, 40000},
 		M_fuel_max		=	1100,
 		V_max			=	295.0,
 		V_max_cruise		=	270.0,

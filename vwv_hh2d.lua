@@ -57,9 +57,9 @@ vwv_hh2d =  {
 		tail_pos 		= 	{-10.042, 1.76, 0},
 		tail_fin_area		=	4.75,
 		tail_stab_area		=	2.94,
-		M_empty	= 7030,
-		M_nominal =	8800,
-		M_max =	10900,
+		M_empty	= 8030,
+		M_nominal =	9800,
+		M_max =	11900,
 		MOI = {12000, 35000, 40000},
 		M_fuel_max		=	1100,
 		V_max			=	295.0,
@@ -73,13 +73,11 @@ vwv_hh2d =  {
 		flight_time_typical	=	110,
 		flight_time_maximum	=	138,
 
-	nose_gear_pos 				= { -2.681, -1.73,	0}, -- nosegear coord
-	main_gear_pos 				= {  2.113, -1.73,   1.114}, -- main gear coords
+	nose_gear_pos 				= { -2.681, -1.63,	0}, -- nosegear coord
+	main_gear_pos 				= {  2.113, -1.63,   1.114}, -- main gear coords
 -----------------------------------------------------------
-	lead_stock_main	=	0.295,
-	lead_stock_support	=	0.21,
---	lead_stock_main	=	-0.1,
---	lead_stock_support	=	-0.1,
+	lead_stock_main	=	-0.1,
+	lead_stock_support	=	-0.1,
 	stores_number	=	4,
 	scheme	=	1,
 	fire_rate	=	625,
@@ -98,22 +96,7 @@ vwv_hh2d =  {
 			drop_canopy_name	=	0,
 			pos = {2.5, 0.0, 1.3},
 			canopy_arg = 38,
-		}, -- end of [1]
---[[		[3] =
-		{
-			ejection_seat_name	=	0,
-			drop_canopy_name	=	0,
-			pos = {0.0, -0.8, -1.8},
-			canopy_arg = 38,
-		}, -- end of [1]
-		[4] =
-		{
-			ejection_seat_name	=	0,
-			drop_canopy_name	=	0,
-			pos = {0.0, -0.8, 1.8},
-			canopy_arg = 38,
-		}, -- end of [1]
-]]
+		}, -- end of [2]
 	}, -- end of crew_members
 
 	LandRWCategories =
@@ -156,7 +139,7 @@ vwv_hh2d =  {
         },
     },
 
---	takeoff_and_landing_type = "VTOL",
+	takeoff_and_landing_type = "VTOL",
 
 	RCS	=	7,
 	IR_emission_coeff	=	0.72,
