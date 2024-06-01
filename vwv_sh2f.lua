@@ -104,8 +104,8 @@ vwv_sh2f =  {
 			}, -- end of [1]
 		}, -- end of crew_members
 
-	nose_gear_pos 				= { -2.681, -1.63,	0}, -- nosegear coord
-	main_gear_pos 				= {  2.113, -1.63,   1.114}, -- main gear coords
+	nose_gear_pos 				= { -2.681, -1.70,	0}, -- nosegear coord
+	main_gear_pos 				= {  2.113, -1.70,  1.114}, -- main gear coords
 -----------------------------------------------------------
 	lead_stock_main	=	-0.1,
 	lead_stock_support	=	-0.1,
