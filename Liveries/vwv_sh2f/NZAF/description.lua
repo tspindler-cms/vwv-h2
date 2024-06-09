@@ -12,5 +12,5 @@ livery = {
 	{"helmet",	DIFFUSE			,	"flight_helmet_navyR", false};
 
 }
-name = "SH2 NZAF"
+name = "SH-2 NZAF"
 --countries = {"USA"}
