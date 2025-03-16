@@ -23,12 +23,15 @@ declare_plugin(self_ID,
 
 mount_vfs_texture_path  (current_mod_path.."/Textures/rescue_pilots.zip")
 mount_vfs_texture_path  (current_mod_path.."/Textures/seasprite_sh2f.zip")
+mount_vfs_texture_path  (current_mod_path.."/Textures/seasprite_common.zip")
 mount_vfs_texture_path  (current_mod_path.."/Textures/stretcher_sling.zip")
 mount_vfs_liveries_path (current_mod_path.."/Liveries")
 mount_vfs_model_path	(current_mod_path.."/Shapes")
 
+dofile(current_mod_path..'/vwv_sh2f_static.lua')
 dofile(current_mod_path..'/vwv_sh2f_statics.lua')
 dofile(current_mod_path..'/vwv_sh2f.lua')
 dofile(current_mod_path..'/vwv_hh2d.lua')
 
 plugin_done()
+
