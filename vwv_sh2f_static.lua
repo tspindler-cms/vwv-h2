@@ -1,3 +1,5 @@
+-- To be found under Static -> Cargos, not Helicopters
+-- cannot change category and attributes it seems
 local sh2f_static = {
 	Name = 'vwv_sh2f_static',
 	DisplayName = _('[VWV] SH-2F Seasprite (Folded) Static'),
